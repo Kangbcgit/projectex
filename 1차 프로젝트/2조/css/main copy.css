@@ -1,0 +1,78 @@
+/* common */
+*{
+    text-decoration: none;
+    color: #fff;
+}
+body {
+    background: #000;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.wrap {
+    width: 100%;
+    background: #000;
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 1;
+}
+
+.position {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+
+/* header */
+header {
+    background: orange;
+    height: 65px;
+}
+header .inner {
+    width: 80%;
+}
+header .logo {
+    float: left;
+    width: 108px;
+    height: 32px;
+    
+    position: absolute;
+}
+header .logo img {
+    width: 100%;
+}
+header .select_language {
+    background: #000;
+    border: 1px solid #fff;
+    width: 94px;
+    height: 36.19px;
+    overflow: hidden;
+}
+header .header_right {
+    float: right;
+}
+header .header_right .select_language {
+    float: left;
+}
+header .header_right .sign_in {
+    float: right;
+    width: 82px;
+    height: 35px;
+    border-radius: 6px;
+    text-align: center;
+    background: #e50914;
+
+    position: relative;
+}
+header .header_right .sign_in a {
+    width: 100%;
+    color: #fff;
+}
